@@ -5,6 +5,6 @@ module.exports = function (config) {
     'example': './assets/js/app.js',
   };
   config.plugins.push(
-    new CopyPlugin({ patterns: [{ from: "assets/images" }] })
+    new CopyPlugin({ patterns: [{ from: "assets/images", to: "[name]-[contenthash].[ext]" }] })
   );
 };

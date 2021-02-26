@@ -23,5 +23,6 @@ __DATA__
       together with <a href="https://mojolicious.org/">Mojolicious</a>.
     </p>
     %= image 'asset/wave.jpg'
+    %#= image 'asset/wave-faad2aefeace0ad5b207e8c98530a001.jpg'
   </body>
 </html>
