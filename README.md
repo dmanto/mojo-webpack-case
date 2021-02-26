@@ -1,7 +1,7 @@
 # Alternatives to use images on Mojolicious::Plugin::Webpack
 ![GitHub repo size](https://img.shields.io/github/repo-size/dmanto/mojo-webpack-case)
 
-This repo shows some alternatives (on different branches) to work with images on the amaizing real-time web framework [Mojolicious](https://metacpan.org/pod/Mojolicious), using its oficial [Webpack Plugin](https://metacpan.org/pod/Mojolicious::Plugin::Webpack)
+This repo shows some alternatives (on different branches) to work with images on the amaizing real-time web framework [Mojolicious](https://metacpan.org/pod/Mojolicious), using its official [Webpack Plugin](https://metacpan.org/pod/Mojolicious::Plugin::Webpack)
 
 This is ```use-hashed-name-on-images``` branch, it shows a non working example, because the image to be incorporated (in ```assets/images/wave.jpg```) is copied with a different name (wave-faad2aefeace0ad5b207e8c98530a001.jpg), and we have no way to generate a proper url yet.
 
